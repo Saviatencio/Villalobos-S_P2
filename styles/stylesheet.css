@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+*{
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font: 1rem/1.5rem 'Roboto', sans-serif;
+  margin: 0;
+  background: url("../images/Rectangle%20153.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+    
+}
+
+header {
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height:40.5rem;
+
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding-top: 3rem;
+}
+
+nav ul {
+	float: right;
+    padding-top: 2rem;
+	
+}
+
+nav li {
+	list-style: none;
+	display: inline;
+	color: white;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+nav a{
+	color: white;
+	margin: 0 .5em;
+	font-weight: 400;
+    
+}
+
+nav a:link{
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #00A1E0;
+}
+
+#annual {
+   display: block;
+}
+
+#annual {
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    float: left;
+    margin-left: -7rem;
+    padding: 0 9rem;
+}
+
+#annual h2 {
+    font-size: 1.9rem;
+}
+
+
+#annual h1 {
+    font-size: 4.2rem;
+    line-height: 4.5rem;
+    margin: 1rem;
+}
+
+.button {
+    background: #00A1E0;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 21px;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px; 
+    color: white;
+    border: solid 1px #00A1E0;;
+    
+}
+
+.button:hover {
+    color: #00A1E0;
+    background: white;
+    transition-timing-function: ease;
+}
+
+#intro p{
+    color: white;
+    width: 60%;
+    font-weight: 200;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-right: 1rem;
+}
+
+#highlightstext h1{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 3rem;
+    color: #72AFBD;
+    width: 100%;
+    text-align: center;
+    
+}
+
+#intro img {
+  max-width: 100%;
+  margin-top: 2rem;
+}
+
+#intro .image {
+  flex-basis: 50%;
+
+}
+
+#highlightsimg {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+#highlightsimg img {
+  max-width: 100%;
+  margin-top: 2rem;
+    flex-basis: 40%;
+
+}
+
+#fliying {
+    float: left;
+    margin: -60rem 55%;
+}
+
+#branchl {
+    float: left;
+    margin: -50rem 77% 0;
+}
+
+#branchr {
+    float: right;
+    margin: -45rem 79%;
+}
+
+#dog { 
+    float: right;
+    margin: -25rem 69%;
+}
+
+#friends {
+    float: left;
+    margin: -23rem 62% 0;
+}
+
+#shareholders{
+    display: block;
+    color: white;
+    margin-bottom: 5rem;
+    
+}
+
+#shareholders p {
+    color: white;
+    width: 70%;
+    font-weight: 300;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    margin-right: 1rem;
+    
+}
+
+#shareholders h1 {
+font-weight: 300;
+font-size: 3.1rem;
+text-transform: uppercase;
+color: #496A72;
+line-height: 3.5rem;
+}
+
+#codey {
+    float: left;
+    margin: -55rem 50% 0;
+}
+
+footer {
+    background-color: #0F292A;
+    padding: 3rem;
+}
+
+#pagebottom{
+    margin: auto;
+    padding-top: 0;
+}
+
+.navbottom li {
+    color: white;
+    list-style: none;
+    margin: 0 -55rem;
+    width: 10rem;
+   
+}
+
+.navbottom a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbottom a:hover{
+	color: #00A1E0;
+}
+
+.socials {
+    margin: 0 -53rem;
+    width: 15rem;
+ 
+}
+
+.socials img{
+    width: 3rem;
+    margin: 0 .5rem;
+ 
+}
+
+
+#business {
+    display: block;
+    color: white;
+    margin-top: -25rem;
+}
+
+#business h1{
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+#business p {
+font-weight: 200;
+font-size: 1.5rem;
+line-height: 2rem; 
+padding-top: 2rem;}
+
+
+
+#offerings {
+    margin-top: 10rem;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+ 
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#offerings {
+    display: block;
+    color: white;
+}
+
+#offerings h2 {
+ text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+#offerings h3 {
+ text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+#offerings p {
+font-weight: 400;
+font-size: 1rem;
+line-height: 1.6rem;}
+
+#eflying {
+    float: left;
+    margin: -87rem 40%;
+}
+
+#icons {
+    flex-wrap: wrap;
+    width: 70%;
+    
+}
+
+.facts {
+  width: 29%;
+  text-align: center;
+    color: white;
+
+}
+
+.facts img {
+  width: 60%;
+
+}
+.facts p {
+    width: 100%;
+
+}
+
+#icons h2 {
+ text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 400;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+#icons p {
+font-weight: 400;
+font-size: 1rem;
+line-height: 1.6rem;
+color: white;
+text-align: center;
+width: 100%;}
+
+#button {
+    align-content: center;
+    margin: 2rem auto;
+  
+    
+}
+
+#design {
+    display: block;
+    color: white
+}
+
+#design h2 {
+    font-size: 1.9rem;
+     text-transform: uppercase;
+    margin: auto;
+}
+
+
+#design h1 {
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    line-height: 3.5rem;
+    color: #00A1E0;
+}
+
+#design p {
+font-weight: 200;
+font-size: 1.5rem;
+line-height: 2rem;
+width: 50%}
+
+#color {
+    display: block;
+    
+}
+
+#color h1 {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    line-height: 2.5rem;
+    color: white;
+}
+
+#typography {
+    display: block;
+    
+}
+
+#typography h1 {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    line-height: 2.5rem;
+    color: white;
+}
+
+#squares img{
+max-width: 100%;
+margin-top: 2rem;
+flex-basis: 50%;
+padding: 0 .5rem;
+}
+#color img{
+max-width: 100%;
+margin-top: 2rem;
+flex-basis: 50%;
+}
+#typography img{
+max-width: 100%;
+margin-top: 2rem;
+flex-basis: 50%;
+
+}
+
+#mascotas {
+    display: block;
+}
+#mascotas img{
+ max-width: 100%;
+  margin-top: 2rem;
+flex-basis: 50%;
+}
+
+#mascotas h1 {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    line-height: 2.5rem;
+    color: white;
+}
+
+#photography h1 {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    line-height: 2.5rem;
+    color: white;
+  
+
+    
+}
+
+
+#photography {
+    flex-wrap: wrap;
+    display: block;
+    margin: 0 auto 4rem;
+
+}
+
+
+
